@@ -30,7 +30,7 @@ def gravityassist_intcode(program):
 
     return program[0]
 
-#Part1 Function: Finding input from target output
+#Part2 Function: Finding input from target output
 def find_input_for_output(program_copy, target_output):
     for noun in range(100): # for loop used provide range of noun between 0-99
         for verb in range(100): # for loop used provide range of verb between 0-99
@@ -63,7 +63,7 @@ restored_program[2] = variables.restored_program2 #Replacing variables
 
 result = gravityassist_intcode(restored_program)
 if result is not None:
-      print(f"Value left at position 0: {result}")
+      print(f"Value left at position 0 after the program halts: {result}")
 else:
       print("Execution failed.")
 
@@ -75,6 +75,6 @@ if noun is not None and verb is not None:
         result1 = 100 * noun + verb
         print("Noun:", noun)
         print("Verb:", verb)
-        print(f"Result: {result1}")
+        print(f"The solution result after addition of noun & verb multiplied by 100: {result1}")
 else:
         print("Failed to find input for the target output.")
