@@ -1,4 +1,4 @@
-name: Gravity Assist Intcode Workflow
+name: Gravity Assist Intcode Python Workflow
 
 on:
   push:

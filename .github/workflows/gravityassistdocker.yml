@@ -1,0 +1,22 @@
+name: Gravity Assist Intcode Python Using Docker Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build_and_run:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Build Docker image
+      run: docker build -t my-intcode-app .
+
+    - name: Run Docker container and capture output for both Main Code and Unit test
+      run: |
+        docker run --rm my-intcode-app > output.txt
+        cat output.txt
