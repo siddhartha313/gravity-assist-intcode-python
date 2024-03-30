@@ -40,7 +40,7 @@ input.txt
 YAML files used by GITHUB Actions pipeline:
 gravityassistpython.yml
 
-Solution I:
+Solution:
 1. 'gravityassistintcode.py' consists of the main python code.
 2. We used two functions 'gravityassist_intcode' and 'find_input_for_output' to define Part 1 and Part 2 of the challenge respectively.
 3. 'gravityassist_intcode' does the addition and multiplication logic along with the code break when the halt opcode appears.
