@@ -18,5 +18,4 @@ jobs:
 
     - name: Run Docker container and capture output for both Main Code and Unit test
       run: |
-        docker run --rm my-intcode-app > output.txt
-        cat output.txt
+        docker run --rm my-intcode-app
