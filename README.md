@@ -23,10 +23,7 @@ We need to have the below installations or requirements:
    https://www.python.org/downloads/
    From command line check version : python3 --version
 
-2. GITHUB or any other VCS account. 
-
-3. Docker Installation if Docker Solution is used. Installation steps are provided in the below link.
-   https://docs.docker.com/engine/install/
+2. GITHUB or any other VCS account.
 
 ## Technical Illustrations
 
@@ -42,10 +39,6 @@ input.txt
 
 YAML files used by GITHUB Actions pipeline:
 gravityassistpython.yml
-gravityassistdocker.yml
-
-Docker Implementation:
-Dockerfile
 
 Solution I:
 1. 'gravityassistintcode.py' consists of the main python code.
@@ -61,15 +54,9 @@ Solution I:
 11. The CI pipeline will first perform the main execution and then perform unit tests.
 12. We can see the outputs in the pipeline workflow.
 
-Solution II:
-1. The python executions remains same as Solution I.
-2. We introduced to run the program using docker as containerized solution.
-3. We define the code execution in a Dockerfile when it runs the main code & unit tests.
-4. We then prepare 'gravityassistdocker.yml' in GITHUB workflow where it runs the docker file using docker build and docker run to build and run the docker file and it provides the output. 
-
 ## Launch or Running the Program:
 
-Commit or push or make any pull request in the GIT repository 'Main' branch will trigger the GITHUB workflow which provides the output for both the solutions.
+Commit or push or make any pull request in the GIT repository 'Main' branch will trigger the GITHUB workflow which provides the output.
 The solution results is provided with screenshots in the document present in the GIT Repository: Solution-Screenshots.docx
 
 ## Authors
