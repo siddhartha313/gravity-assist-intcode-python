@@ -40,7 +40,7 @@ input.txt
 YAML files used by GITHUB Actions pipeline:
 gravityassistpython.yml
 
-Solution I:
+Solution:
 1. 'gravityassistintcode.py' consists of the main python code.
 2. We used two functions 'gravityassist_intcode' and 'find_input_for_output' to define Part 1 and Part 2 of the challenge respectively.
 3. 'gravityassist_intcode' does the addition and multiplication logic along with the code break when the halt opcode appears.
@@ -56,6 +56,13 @@ Solution I:
 
 ## Launch or Running the Program:
 
+Manual Run/Launch:
+1. Goto the folder where the python files are available.
+2. Run below commands for python:
+python3 gravityassistintcode.py (to run the main python file)
+python3 test_intcode.py (to run the unit test pythin file)
+
+GITHUB CI Run/Launch:
 Commit or push or make any pull request in the GIT repository 'Main' branch will trigger the GITHUB workflow which provides the output.
 The solution results is provided with screenshots in the document present in the GIT Repository: Solution-Screenshots.docx
 
