@@ -56,7 +56,7 @@ Solution:
 11. The CI pipeline will first perform the main execution and then perform unit tests.
 12. We can see the outputs in the pipeline workflow.
 
-## Launch or Running the Program:
+## Launch or Running the Program files:
 
 Manual Run/Launch:
 1. Goto the folder where the python files are available.
