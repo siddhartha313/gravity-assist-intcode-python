@@ -14,6 +14,8 @@ In Part 2, we need to find a specific pair of inputs that, when used in the prog
 
 In simple words, we are fixing and running a program to find a result in position 0, and then we're finding the inputs that give us a specific result.
 
+A small presentation of this is also present in Gravity Assist-Presentation.pptx
+
 ## Technologies used and Installation
 
 We need to have the below installations or requirements:
@@ -65,6 +67,7 @@ python3 test_intcode.py (to run the unit test pythin file)
 GITHUB CI Run/Launch:
 Commit or push or make any pull request in the GIT repository 'Main' branch will trigger the GITHUB workflow which provides the output.
 The solution results is provided with screenshots in the document present in the GIT Repository: Solution-Screenshots.docx
+A small presentation is also present in Gravity Assist-Presentation.pptx
 
 ## Authors
 
